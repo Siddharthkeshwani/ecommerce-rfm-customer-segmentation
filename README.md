@@ -117,10 +117,10 @@ Prerequisites
 Make sure you have Python 3.9 or higher installed.
 Step 1 — Clone the repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/ecommerce-rfm-customer-segmentation.git
+git clone https://github.com/Siddharthkeshwani/ecommerce-rfm-customer-segmentation.git
 cd ecommerce-rfm-customer-segmentation
 ```
-> Replace `YOUR-USERNAME` with your actual GitHub username.
+> Replace `Siddharthkeshwani` with your actual GitHub username.
 Step 2 — Install dependencies
 ```bash
 pip install -r requirements.txt
@@ -165,22 +165,23 @@ jupyter>=1.0.0
 ```
 Install all at once:
 ```bash
-pip install -r requirements.txt
 
+pip install -r requirements.txt
+---
 🌱 Future Improvements
 [ ] Add a cohort retention heatmap in Python (Month 0 → Month 6 visualised)
 [ ] Build a product recommendation engine using association rules (Apriori)
 [ ] Deploy the RFM model as a Streamlit web app so non-technical users can upload their own data
 [ ] Connect Power BI directly to MySQL using live connection instead of CSV
 [ ] Add automated email campaign triggers based on segment changes
-
+---
 👤 About Me
 Siddharth Keshwani  
 Aspiring Data Analyst | Python · SQL · Power BI
-🌐 Portfolio: your-portfolio-link.com
-💼 LinkedIn: linkedin.com/in/your-profile
-📧 Email: your.email@example.com
-
+🌐 Portfolio: https://github.com/Siddharthkeshwani
+💼 LinkedIn: https://www.linkedin.com/in/siddharthkeshwani/
+📧 Email: siddharthkeshwani10@gmail.com/sidkeshwani16@gmail.com
+---
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 You are free to use, copy, modify, and share this project for personal or commercial purposes as long as you include the original licence notice.
