@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files (upload manually or use Git LFS)
+*.csv
+!rfm_segmentation_output.csv
+
+# Temporary files
+*.tmp
+*.log
+*.swp
