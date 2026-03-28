@@ -42,10 +42,10 @@ ecommerce-rfm-customer-segmentation/
 │
 ├── 📂 data/
 │   ├── data.xlsx                         ← Raw transaction dataset
-│   └── rfm_segmentation_output.csv       ← Cleaned RFM output (Python export)
+│   └── rfm_segmentation_output.csv       ← Cleaned RFM output
 │
 ├── 📂 assets/
-│   └── dashboard_preview.png             ← Dashboard screenshot (add yours here)
+│   └── dashboard_preview.png             ← Dashboard screenshot 
 │
 ├── requirements.txt                      ← Python dependencies
 ├── LICENSE                               ← MIT License
@@ -72,8 +72,7 @@ Raw Data (data.xlsx)
        │
        ├──────────────────────┐
        ▼                      ▼
-  MySQL Analysis         Power BI Dashboard
-  (14 SQL queries)       (8 visuals, 1 page)
+  MySQL Analysis         Power BI Dashboard      
 ```
 ---
 🔍 Key Findings
@@ -109,8 +108,8 @@ RFM Scatter Plot — Recency vs Monetary, bubble size = Frequency
 Product Revenue Treemap — Top 20 products by revenue
 Gauge Chart — Repeat Customer Rate vs 70% target
 > **To open:** Download `E-Commerce_Customer_Intelligence.pbix` and open in Power BI Desktop (free download from Microsoft).
-<!-- REPLACE THIS LINE with your actual dashboard screenshot -->
-<!-- ![Dashboard Preview](assets/dashboard_preview.png) -->
+
+![Dashboard Preview](assets/dashboard_preview.png)(https://github.com/Siddharthkeshwani/ecommerce-rfm-customer-segmentation/blob/main/assets/Dashboard%20ScreenShot.png)
 ---
 🚀 How to Run the Python Notebook
 Prerequisites
@@ -120,7 +119,7 @@ Step 1 — Clone the repository
 git clone https://github.com/Siddharthkeshwani/ecommerce-rfm-customer-segmentation.git
 cd ecommerce-rfm-customer-segmentation
 ```
-> Replace `Siddharthkeshwani` with your actual GitHub username.
+
 Step 2 — Install dependencies
 ```bash
 pip install -r requirements.txt
